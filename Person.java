@@ -1,9 +1,9 @@
-class person1
+class Person1
 {
     String firstname;
     String lastname;
     double age;
-    person1(String fn,String ln,double a)
+    Person1(String fn,String ln,double a)
     {
         firstname=fn;
         lastname=ln;
@@ -14,7 +14,7 @@ String getfullname()
     return(firstname+" "+lastname);
 }
 }
-public class person
+public class Person
 {
     public static void main(String  args[])
     {
