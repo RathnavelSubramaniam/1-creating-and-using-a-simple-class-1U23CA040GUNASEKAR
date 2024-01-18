@@ -18,7 +18,7 @@ public class Person
 {
     public static void main(String  args[])
     {
-        person1 p1=new person1( "John","Doe",30);
+        person1 p1=new person1( "Jhon","Doe",30);
         person1 p2=new person1( "Alice","Smith",25);
         System.out.println("Person 1:"+p1.getfullname());
         System.out.println("Person 2:"+p2.getfullname());
